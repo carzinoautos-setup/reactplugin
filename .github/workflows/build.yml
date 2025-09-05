@@ -4,6 +4,9 @@ on:
   push:
     branches: [ "main" ]
 
+permissions:
+  contents: write   # ✅ give GitHub Actions permission to push commits
+
 jobs:
   build:
     runs-on: ubuntu-latest
