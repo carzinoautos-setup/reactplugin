@@ -1,2 +1,2 @@
 trigger build2
-frontend/test.txt test
+frontend/test.txt test2
